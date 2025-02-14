@@ -1,6 +1,38 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+# Ignore build directory
+build/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary files
+thrust_random_walk
+
+# Ignore dependency files
+*.d
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore generated files
+*.generated.*
+analysis/env/
