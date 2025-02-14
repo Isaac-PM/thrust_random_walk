@@ -61,4 +61,4 @@ To visualize the simulation results in ParaView, follow these steps:
 3. Click Apply to load the data.
 4. Use the visualization tools in ParaView to explore the random walk simulation.
 
-![Random Walk Visualization](result.avi)
+![Random Walk Visualization](result.gif)
